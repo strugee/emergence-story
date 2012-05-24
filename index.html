@@ -13,7 +13,7 @@
 		<noscript><p>Your browser appears not to support JavaScript. This site won&#39;t work without it, so please upgrade it or turn on JavaScript.</p></noscript>
 	</head>
 	<body onload="startup()">
-		<h1>Emergence - Story creation project</h1>
+		<h1>Emergence - Story creation project <span id="alphatag">alpha</span></h1>
 		<div id="sentence1">
 			<p>
 			Before
@@ -23,7 +23,7 @@
 			<div id="sentence2">
 				<p>
 					<form action="main.js" method="post">
-						<input id="sentence2alternateinput" type="text" value="New alternate..." onclick="document.getElementById('sentence2alternateinput').value = ''" /><input type="button" value="→" />
+						<input id="sentence2alternateinput" type="text" placeholder="New alternate..." onclick="document.getElementById('sentence2alternateinput').value = ''" /><input type="button" value="→" />
 					</form>
 				</p>
 				<p id="sentence2default">
@@ -34,7 +34,7 @@
 			<div id="sentence3">
 				<p>
 					<form action="#" onclick="getAlternate(3)" method="post">
-						<input id="sentence3alternateinput" type="text" value="New alternate..." onclick="document.getElementById('sentence3alternateinput').value = ''" /><input type="button" value="→" />
+						<input id="sentence3alternateinput" type="text" placeholder="New alternate..." onclick="document.getElementById('sentence3alternateinput').value = ''" /><input type="button" value="→" />
 					</form>
 				</p>
 				<p id="sentence3default">
@@ -45,7 +45,7 @@
 			<div id="sentence4">
 				<p>
 					<form action="main.js" method="post">
-						<input id="sentence4alternateinput" type="text" value="New alternate..." onclick="document.getElementById('sentence4alternateinput').value = ''" /><input type="button" value="→" />
+						<input id="sentence4alternateinput" type="text" placeholder="New alternate..." onclick="document.getElementById('sentence4alternateinput').value = ''" /><input type="button" value="→" />
 					</form>
 				</p>
 				<p id="sentence4default">
