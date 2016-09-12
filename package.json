@@ -1,11 +1,9 @@
 {
   "name": "emergence-story",
-  "version": "0.1.0",
-  "description": "## synopsis ##",
+  "version": "1.0.0",
+  "description": "",
   "main": "main.js",
-  "dependencies": {
-    "socket.io": "^0.9.11"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +13,7 @@
     "url": "https://github.com/strugee/emergence-story.git"
   },
   "author": "Alex Jordan <alex@strugee.net>",
-  "license": "AGPL3+",
+  "license": "AGPL-3.0+",
   "bugs": {
     "url": "https://github.com/strugee/emergence-story/issues"
   },
