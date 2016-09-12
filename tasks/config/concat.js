@@ -11,21 +11,21 @@
  * that can then be passed in to `uglify` and/or `cssmin` for minification.
  *
  * For usage docs see:
- *   https://github.com/gruntjs/grunt-contrib-concat
+ *	 https://github.com/gruntjs/grunt-contrib-concat
  *
  */
 module.exports = function(grunt) {
 
-  grunt.config.set('concat', {
-    js: {
-      src: require('../pipeline').jsFilesToInject,
-      dest: '.tmp/public/concat/production.js'
-    },
-    css: {
-      src: require('../pipeline').cssFilesToInject,
-      dest: '.tmp/public/concat/production.css'
-    }
-  });
+	grunt.config.set('concat', {
+		js: {
+			src: require('../pipeline').jsFilesToInject,
+			dest: '.tmp/public/concat/production.js'
+		},
+		css: {
+			src: require('../pipeline').cssFilesToInject,
+			dest: '.tmp/public/concat/production.css'
+		}
+	});
 
-  grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-contrib-concat');
 };

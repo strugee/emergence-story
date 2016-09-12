@@ -2,7 +2,7 @@
  * Cross-Site Request Forgery Protection Settings
  * (sails.config.csrf)
  *
- * CSRF tokens are like a tracking chip.  While a session tells the server that a user
+ * CSRF tokens are like a tracking chip.	While a session tells the server that a user
  * "is who they say they are", a csrf token tells the server "you are where you say you are".
  *
  * When enabled, all non-GET requests to the Sails server must be accompanied by
@@ -43,22 +43,22 @@
  */
 
 /****************************************************************************
-*                                                                           *
-* Enabled CSRF protection for your site?                                    *
-*                                                                           *
+*																																					 *
+* Enabled CSRF protection for your site?																		*
+*																																					 *
 ****************************************************************************/
 
 // module.exports.csrf = false;
 
 /****************************************************************************
-*                                                                           *
-* You may also specify more fine-grained settings for CSRF, including the   *
-* domains which are allowed to request the CSRF token via AJAX. These       *
-* settings override the general CORS settings in your config/cors.js file.  *
-*                                                                           *
+*																																					 *
+* You may also specify more fine-grained settings for CSRF, including the	 *
+* domains which are allowed to request the CSRF token via AJAX. These			 *
+* settings override the general CORS settings in your config/cors.js file.	*
+*																																					 *
 ****************************************************************************/
 
 // module.exports.csrf = {
-//    grantTokenViaAjax: true,
-//    origin: ''
+//		grantTokenViaAjax: true,
+//		origin: ''
 // }

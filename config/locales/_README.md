@@ -10,8 +10,8 @@ as JSON key-value pairs. The name of the file should match the language that you
 Here is an example locale stringfile for the Spanish language (`config/locales/es.json`):
 ```json
 {
-    "Hello!": "Hola!",
-    "Hello %s, how are you today?": "¿Hola %s, como estas?",
+		"Hello!": "Hola!",
+		"Hello %s, how are you today?": "¿Hola %s, como estas?",
 }
 ```
 ## Usage

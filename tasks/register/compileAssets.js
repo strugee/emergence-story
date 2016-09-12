@@ -8,15 +8,15 @@
  * `buildProd` tasklists.
  *
  * For more information see:
- *   http://sailsjs.org/documentation/anatomy/my-app/tasks/register/compile-assets-js
+ *	 http://sailsjs.org/documentation/anatomy/my-app/tasks/register/compile-assets-js
  *
  */
 module.exports = function(grunt) {
-  grunt.registerTask('compileAssets', [
-    'clean:dev',
-    'jst:dev',
-    'less:dev',
-    'copy:dev',
-    'coffee:dev'
-  ]);
+	grunt.registerTask('compileAssets', [
+		'clean:dev',
+		'jst:dev',
+		'less:dev',
+		'copy:dev',
+		'coffee:dev'
+	]);
 };
