@@ -8,7 +8,27 @@
 module.exports = {
 
 	attributes: {
-		
+		id: {
+			type: 'integer',
+			autoIncrement: true,
+			unique: true,
+			required: true,
+			primaryKey: true
+		},
+		currentValue: {
+			type: 'string',
+			required: true
+		},
+		alternates: {
+			collection: 'sentence',
+			via: 'parent'
+		},
+		parent: {
+			model: 'sentence'
+		},
+		position: {
+			required: true
+		}
 	}
 };
 
