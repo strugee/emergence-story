@@ -27,6 +27,7 @@ module.exports = {
 			model: 'sentence'
 		},
 		position: {
+			type: 'integer',
 			required: true
 		}
 	}
